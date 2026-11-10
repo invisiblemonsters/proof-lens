@@ -1,0 +1,10 @@
+name: proof-lens
+version: 1.0.0
+description: "Verify a DRAT refutation and profile its proof depth as a Desktop pane. Pick a CNF and a trace; every accepted line is re-derived by unit propagation, and the pane reports the refutation's certificate depth plus a histogram of derived clauses by depth. Disclosure — reads only the two files chosen in the browser file dialog; everything runs in the renderer; no network calls, no shell commands, no stored files."
+author: invisiblemonsters
+requires_hermes: ">=0.22.0"
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []

@@ -1,0 +1,11 @@
+{
+  "name": "proof-lens",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Verify DRAT refutations and profile their proof depth, inside Hermes Desktop.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/test_core.mjs"
+  }
+}
